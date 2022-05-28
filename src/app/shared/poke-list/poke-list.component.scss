@@ -1,0 +1,65 @@
+@import '../../../config-scss/rem-calc.scss';
+@import '../../../config-scss/variables.scss';
+
+
+:host{
+  .list{
+    display: flex;
+    justify-content: space-between;
+    padding: rem-calc(20) 0;
+    flex-wrap: wrap;
+
+    .poke{
+        position: relative;
+        display: flex;
+        width: calc(49% - 2.5rem);
+        height: rem-calc(157 - 40);
+        background: #fff;
+        padding: rem-calc(20)  ;
+        border-radius: rem-calc(10);
+        text-decoration: none;
+        color: #000;
+        margin-bottom: rem-calc(10);
+
+
+        &_stats{
+            h2{
+                font-size: rem-calc(20);
+                font-style: italic;
+                font-weight: 700;
+                text-transform: capitalize;
+                margin-bottom: rem-calc(10);
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+            }
+            li{
+                background: var(--cinza);
+                font-size: rem-calc(13);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: rem-calc(50);
+                width: rem-calc(60);
+                margin-bottom: rem-calc(5);
+            }
+        }
+        &_img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            height: rem-calc(90);
+            width: rem-calc(110);
+            right: rem-calc(20);
+            bottom: rem-calc(20);
+            background: url('../../../assets/bg/bg-list.svg') no-repeat;
+
+            img{
+                width: rem-calc(70);
+            }
+        }
+    }
+}  
+}
