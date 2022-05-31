@@ -1,6 +1,6 @@
 # Pokedex
 
-this project was made entirely with Angular JS framework and SCSS, with the objective to made a Pokedex with the originals 151 pokemons, i used the [PokeApi](https://pokeapi.co) to return the data and images 
+this project was made entirely with Angular JS framework and SCSS, with the objective to made a Pokedex with the originals 151 pokemons, i used the [PokeApi](https://pokeapi.co) to receive data and images 
 
 [Click Here](https://pokedexd-angular.netlify.app) to go
 
