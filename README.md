@@ -18,5 +18,5 @@ this project was made entirely with Angular JS framework and SCSS, with the obje
 
 - `npm install`
 
-### Para rodar 
+### To Run
 - `npm run start`
